@@ -1,0 +1,44 @@
+header,section,footer{
+  padding:2%;
+}
+body{
+  text-align:center;
+}
+header,footer{
+text-align:center;
+}
+
+
+
+footer{
+  text-align:center;
+  position:absolute;
+  right:0;
+  left:0;
+  bottom:0;
+}
+
+
+input{
+  text-align:center;
+}
+
+#content{
+  display:block;
+  margin:0 auto;
+  text-align:center;
+}
+table{
+  background:white;
+  margin:0 auto;
+  width:50%;
+  align-items:center;
+}
+table,th,td{
+border: 1px solid black;
+text-align:center;
+}
+
+ th,td{
+  width:30%;
+}
