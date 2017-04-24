@@ -1,4 +1,4 @@
-# Job-Search-Google
+# Job-Search-Indeed
 
 By Joel Colon, Luis Abreu, and Yves.
 
