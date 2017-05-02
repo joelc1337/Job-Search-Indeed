@@ -19,9 +19,19 @@ console.log('hi');
       xhrFields: {
         withCredentials: true
       },
-      url: 'https://api.indeed.com/ads/apisearch?publisher=2840626911053845&q=' + job + '&l=' + location + '&sort=&radius=&st=&jt=' + favorite + '&start=&limit=&fromage=180&filter=1&latlong=1&co=us&chnl=&userip=1.2.3.4&useragent=Mozilla/%2F4.0%28Firefox%29&v=2&format=json',
+      url: 'http://api.indeed.com/ads/apisearch?publisher=2840626911053845&q=' + job + '&l=' + location + '&sort=&radius=&st=&jt=' + favorite + '&start=&limit=15&fromage=180&filter=1&latlong=1&co=us&chnl=&userip=1.2.3.4&useragent=Mozilla/%2F4.0%28Firefox%29&v=2&format=json',
       success: function (data) {
+         $('.jobs').remove();
 
+      for(var i=0;i<12;i++){
+         //console.log(data.results[i])
+        
+        var jobtitle = data.results[i].jobtitle;  
+        var location = data.results[i].formattedLocationFull;
+        var contact = data.results[i].url;
+        var time = data.results[i].formattedRelativeTime;
+        $("#data").append('<tr class=jobs> <td>' + jobtitle + ' </td> <td>' + location + '</td> <td> <a href=' + contact + '> Website </a> </td> <td>' + time  + '</td> </tr>')
+      }
         console.log(data);
       },
     });
