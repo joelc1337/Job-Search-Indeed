@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <title>Job-Search</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+  <title>Job-Search</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -14,86 +14,34 @@
     <h1> Job-Search Project </h1>
   </header>
   <div id="content">
-      <div>
-          <input id="location" placeholder="Location xx,xx" type="text">
-          <input id="job" placeholder="Job type" type="text">
-          <input id="submit" value="Submit" type="button">
-      </div>
+    <div>
+      <input id="location" placeholder="Location xx,xx" type="text">
+      <input id="job" placeholder="Job type" type="text">
+      <input id="submit" value="Submit" type="button">
+    </div>
+    <div id="check-box">
       <input id="jobtype" type="checkbox" value="Part-time" name="job"> Part-time
       <input id="full" type="checkbox" value="Full-Time" name="job"> Full-Time
       <input id="int" type="checkbox" value="internship" name="job"> Internship
-
-
-      <div id="results">
-        <h1> &darr; Here Are Your Results &darr;</h1>
-        <table>
-          <!-- example input -->
-          <tr>
-            <th>Job Title</th>
-            <th>Location</th>
-            <th>Job-Contact</th>
-          </tr>
-          <tr>
-            <td class="job-title">
-              busboy
-            </td>
-            <td class="job-location">
-              Texas
-            </td>
-            <td class="job-contact">
-              555-555-5555
-            </td>
-          </tr>
-          <tr>
-            <td class="job-title">
-              busboy
-            </td>
-            <td class="job-location">
-              Texas
-            </td>
-            <td class="job-contact">
-              555-555-5555
-            </td>
-          </tr>
-          <tr>
-            <td class="job-title">
-              busboy
-            </td>
-            <td class="job-location">
-              Texas
-            </td>
-            <td class="job-contact">
-              555-555-5555
-            </td>
-          </tr>
-          <tr>
-            <td class="job-title">
-              busboy
-            </td>
-            <td class="job-location">
-              Texas
-            </td>
-            <td class="job-contact">
-              555-555-5555
-            </td>
-          </tr>
-          <tr>
-            <td class="job-title">
-              busboy
-            </td>
-            <td class="job-location">
-              Texas
-            </td>
-            <td class="job-contact">
-              555-555-5555
-            </td>
-          </tr>
-        </table>
-      </div>
-
     </div>
-  </body>
-  <footer>
-    <h2> By Joel, Luis, and Yves</h2>
-  </footer>
+
+    <div id="results">
+      <h1> &darr; Here Are Your Results &darr;</h1>
+      <table id="data">
+        <!-- example input -->
+        <tr>
+          <th>Job Title</th>
+          <th>Location</th>
+          <th>Job-Contact</th>
+          <th> Time Posted</th>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+</body>
+<footer>
+  <h2> By Joel, Luis, and Yves</h2>
+</footer>
+
 </html>

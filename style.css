@@ -3,13 +3,17 @@ header,section,footer{
 }
 body{
   text-align:center;
+  background-color: #26252A;
+}
+#check-box{
+  color: white;
 }
 header,footer{
 text-align:center;
 }
-
-
-
+h2,h1{
+  color: white;
+}
 footer{
   text-align:center;
   position:absolute;
@@ -17,8 +21,6 @@ footer{
   left:0;
   bottom:0;
 }
-
-
 input{
   text-align:center;
 }
@@ -38,31 +40,6 @@ table,th,td{
 border: 1px solid black;
 text-align:center;
 }
-
  th,td{
   width:30%;
-}
-body{
-      animation: colorchange 20s; 
-      -webkit-animation: colorchange 20s; 
-     animation-iteration-count: infinite;
-
-}
-
-    @keyframes colorchange
-    {
-      0%   {background: red;}
-      25%  {background: yellow;}
-      50%  {background: blue;}
-      75%  {background: pink;}
-      100% {background: red;}
-    }
-.job-title{
-  color: chartreuse;
-}
-.job-location{
-  color: blue;
-}
-.job-contact{
-  color: red;
 }
