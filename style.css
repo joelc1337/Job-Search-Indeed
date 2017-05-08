@@ -4,6 +4,7 @@ header,section,footer{
 body{
   text-align:center;
   background-color: #26252A;
+  color white;
 }
 #check-box{
   color: white;
@@ -35,11 +36,22 @@ table{
   margin:0 auto;
   width:50%;
   align-items:center;
+  color:black;
 }
 table,th,td{
 border: 1px solid black;
 text-align:center;
+padding:2px;
 }
  th,td{
   width:30%;
+}
+
+#filter > ul {
+  list-style-type:none;
+}
+
+#filter > ul > li{
+  display:inline;
+  margin-right:50px;
 }

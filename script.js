@@ -1,6 +1,20 @@
 
+function getLocation() {
+    if (navigator.geolocation) {
+        return navigator.geolocation.getCurrentPosition();
+    } else {
+        console.log("Geolocation is not supported by this browser.");
+    }
+}
+
+function insInfo(jobTitle){
+  $('#location').val(getLocation());
+  $('#job').val(jobTitle);
+  console.log('hi');
+}
 
 $(function () {
+
 console.log('hi');
   $("#submit").click(function () {
     var location = $("#location").val();
@@ -25,8 +39,8 @@ console.log('hi');
 
       for(var i=0;i<12;i++){
          //console.log(data.results[i])
-        
-        var jobtitle = data.results[i].jobtitle;  
+
+        var jobtitle = data.results[i].jobtitle;
         var location = data.results[i].formattedLocationFull;
         var contact = data.results[i].url;
         var time = data.results[i].formattedRelativeTime;
@@ -37,4 +51,3 @@ console.log('hi');
     });
   })
 })
-

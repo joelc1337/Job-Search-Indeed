@@ -15,6 +15,7 @@
   </header>
   <div id="content">
     <div>
+      <h2> Enter Info Here! </h2>
       <input id="location" placeholder="Location xx,xx" type="text">
       <input id="job" placeholder="Job type" type="text">
       <input id="submit" value="Submit" type="button">
@@ -23,6 +24,15 @@
       <input id="jobtype" type="checkbox" value="Part-time" name="job"> Part-time
       <input id="full" type="checkbox" value="Full-Time" name="job"> Full-Time
       <input id="int" type="checkbox" value="internship" name="job"> Internship
+    </div>
+
+    <div id="filter">
+      <h4 style="color:white"> Job Types </h4>
+      <ul>
+        <li><a href="#" onclick="insInfo('Computer Science')">Computer Science</a></li>
+        <li><a href="#" onclick="insInfo('Fast Food')"> Fast Food </a></li>
+        <li><a href="#" onclick="insInfo('Retail')"> Retail </a></li>
+      </ul>
     </div>
 
     <div id="results">
