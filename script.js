@@ -1,4 +1,6 @@
-
+$('#btn').click(function(){
+  getLocation();
+})
 function getLocation() {
     if (navigator.geolocation) {
         return navigator.geolocation.getCurrentPosition();
@@ -7,11 +9,6 @@ function getLocation() {
     }
 }
 
-function insInfo(jobTitle){
-  $('#location').val(getLocation());
-  $('#job').val(jobTitle);
-  console.log('hi');
-}
 
 $(function () {
 
