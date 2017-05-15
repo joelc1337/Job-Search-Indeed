@@ -15,4 +15,4 @@ This project is a vital tool for individuals across the United States who are se
 
 ## Tech Stack
 
-
+We used Jquery, Javascript, and Indeed API to handle our backend. Indeed API gives us information while we use Jquer to display and gather the information.
