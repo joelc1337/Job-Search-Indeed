@@ -2,7 +2,7 @@
 
 By Joel Colon, Luis Abreu, and Yves.
 
-[Alt text](../job-search.png?raw=true "Optional Title")
+[Alt text](../Demo-Image.png?raw=true "Optional Title")
 
 
 Problem: Many students have little to no work experience and have trouble finding entry level jobs near them.
