@@ -1,9 +1,7 @@
-# Job-Search-Indeed
 
-By Joel Colon, Luis Abreu, and Yves.
+By Joel Colon, Luis Abreu, and Yves. Project Url:
 
-[Alt text](../Demo-Image.png?raw=true "Optional Title")
-
+![Example project image](Demo-Image.png)
 
 Problem: Many students have little to no work experience and have trouble finding entry level jobs near them.
 
