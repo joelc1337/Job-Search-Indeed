@@ -12,7 +12,7 @@ $(function () {
 // Submit button gets the location and job type and stores it in a variable.
   $("#submit").click(function () {
     var location = $("#location").val();
-    //Location finished
+    //Location finisheda
     var job = $("#job").val();
 
     var favorite = [];
