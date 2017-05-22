@@ -1,13 +1,3 @@
-$('#btn').click(function(){
-  getLocation();
-})
-function getLocation() {
-    if (navigator.geolocation) {
-        return navigator.geolocation.getCurrentPosition();
-    } else {
-        console.log("Geolocation is not supported by this browser.");
-    }
-}
 $(function () {
 // Submit button gets the location and job type and stores it in a variable.
   $("#submit").click(function () {
