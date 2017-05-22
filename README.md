@@ -1,6 +1,6 @@
 # Job-Search-Indeed
 
-By Joel Colon, Luis Abreu, and Yves. Project Url: https://rawgit.com/joelc1337/Job-Search-Indeed/master/index.html
+By Joel Colon, Luis Abreu, and Yves. Project Url: http://rawgit.com/joelc1337/Job-Search-Indeed/master/index.html
 
 ![Example project image](Demo-Image.png)
 
